@@ -66,7 +66,10 @@
 	padding: 10px;
 }
 
+/*footer*/
+
 #footer{
+	clear: both;
 	width: 100%;
 	background: #111;
 	color: #fff;
@@ -106,3 +109,6 @@
 	font-size: 15px;
 	text-align: center;
 }
+
+
+/*For contact*/
