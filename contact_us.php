@@ -3,11 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<title>Candy May Restaurant</title>
 	<style>
+	body{
+		font-family: 'Quicksand', sans-serif;
+	}
 	#contact1{
 	width: 100%;
 	height: 400px;
@@ -56,7 +62,7 @@
 		<div id="fleft">
 			<h2 id="candy" class="h5 text-white">CANDY MAY</h2>
 		<p id="pcandy" class="text-white">Candy May Restaurant, N0.1, Strand Street, Yangon, Myanmar
-			<br>Check in or Delivery:8pm - 8pm
+			<br>Check in or Delivery : 8pm - 8pm
 			<br>(415)915-6815
 			<br>
 			<a href="#">candymay.com</a>

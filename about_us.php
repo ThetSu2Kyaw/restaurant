@@ -38,7 +38,7 @@
 		<div id="fleft">
 			<h2 id="candy" class="h5 text-white">CANDY MAY</h2>
 		<p id="pcandy" class="text-white">Candy May Restaurant, N0.1, Strand Street, Yangon, Myanmar
-			<br>Check in or Delivery:8pm - 8pm
+			<br>Check in or Delivery : 8pm - 8pm
 			<br>(415)915-6815
 			<br>
 			<a href="#">candymay.com</a>
