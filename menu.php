@@ -8,101 +8,100 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<title>Candy May Restaurant</title>
 	<style>
-		body{
-  			margin: 0;
-  			height: 200vh;
-		}
+	body{
+		margin: 0;
+		height: 200vh;
+	}
 
-		#nav{
-			height: 100%;
-			width: 20%;
-			float: left;
-			background: red;
-		}
+	#nav{
+		height: 100%;
+		width: 20%;
+		float: left;
+		background-image: linear-gradient(180deg, #000, #400a06);
+		border: 1px solid #ccc;
+	}
 
-		ul{
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}  
+	ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}  
+	ul li{
+		display: block;
+		width: 100%;
+		border: 1px solid #ccc;
+		border-top: 0 none;
+		height: 100px;
+		line-height: 100px;
+		text-align: center;
+	}
 
-		ul li{
-			display: block;
-			width: 100%;
-			border: 1px solid black;
-			border-top: 0 none;
-			height: 100px;
-			line-height: 100px;
-			text-align: center;
-			background: red;
-		}
+	ul a{
+		text-decoration: none;
+		color: #fff;
+	}
 
-		ul a{
-			text-decoration: none;
-			color: #000;
-		}
+	ul li:hover{
+		background: #4a1612;
+		color: #fff;
+	}
 
-		ul li:hover{
-			background: darkred;
-			color: #fff;
-		}
+	ul li:hover a{
+		color: #fff;
+	}
 
-		ul li:hover a{
-			color: #fff;
-		}
+	#wrap{
+		width: 80%;
+		float: left;
+	}
 
-		#wrap{
-			width: 80%;
-			float: left;
-		}
+	.row{
+		height:300px;
+		width: 80%;
+		margin:20px auto;
+	}
 
-		.row{
-			height:300px;
-			width: 80%;
-			margin:20px auto;
-		}
+	.inner{
+		width:95%; 
+		border:2px solid #ccc;
+		height:280px;
+		box-shadow: 5px 5px 5px #ddd;
+		border-radius: 4px;
+	}
 
-		.inner{
-			width:95%; 
-			border:2px solid #ccc;
-			height:280px;
-			box-shadow: 5px 5px 5px #ddd;
-			border-radius: 4px;
-		}
+	.inner h3{
+		font-weight: normal;
+		padding: 10px;
+		margin-bottom: 15px;
+	}
 
-		.inner h3{
-			font-weight: normal;
-			padding: 10px;
-			margin-bottom: 15px;
-		}
+	.fa-ellipsis-v{
+		float: right;
+		font-size: 16px; 
+		margin-top : 10px;
+	}
 
-		.fa-ellipsis-v{
-			float: right;
-			font-size: 16px; 
-			margin-top : 10px;
-		}
+	.inner p{
+		font-size: 16px;
+	}
 
-		.inner p{
-			font-size: 16px;
-		}
+	.order{
+		width: 80%;
+		font-size: 18px;
+		border: 1px solid #ccc;
+		background-image: linear-gradient(180deg, #000, #400a06);
+		color: white;
+		height: 30px;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		margin: 10px auto;
+		border-radius: 10px;
+	}
 
-		.order{
-			width: 80%;
-			font-size: 18px;
-			border: 1px solid #ccc;
-			background: red;
-			color: white;
-			height: 30px;
-			display: block;
-			text-align: center;
-			text-decoration: none;
-			margin: 10px auto;
-			border-radius: 10px;
-		}
-
-		.order:hover{
-			color: darkred;
-		}
+	.order:hover{
+		color: darkred;
+	}
 	</style>
 </head>
 <body>
