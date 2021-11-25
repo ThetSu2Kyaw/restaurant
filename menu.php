@@ -67,6 +67,17 @@
 		height:280px;
 		box-shadow: 5px 5px 5px #ddd;
 		border-radius: 4px;
+		position: relative;
+	}
+
+	.price{
+		position: absolute;
+		top: 3%;
+		left: 6%;
+		border-radius: 5px;
+		color: yellow;
+		font-size: 15px;
+		padding: 2px 3px;
 	}
 
 	.inner h3{
@@ -86,10 +97,10 @@
 	}
 
 	.order{
-		width: 80%;
+		width: 85%;
 		font-size: 18px;
 		border: 1px solid #ccc;
-		background-image: linear-gradient(180deg, #000, #400a06);
+		background: #d9534f;
 		color: white;
 		height: 30px;
 		display: block;
@@ -102,6 +113,7 @@
 	.order:hover{
 		color: darkred;
 	}
+
 	</style>
 </head>
 <body>
@@ -126,25 +138,25 @@
 		<div class="row" style="">
 		<div class="col-lg-4">
 			<div id="inner1" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div id="inner2" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
 		<div class="col-lg-4" >
-			<div id="inner3" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
@@ -152,25 +164,25 @@
 	<div class="row" style="">
 		<div class="col-lg-4">
 			<div id="inner1" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div id="inner2" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
 		<div class="col-lg-4" >
-			<div id="inner3" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
@@ -178,25 +190,25 @@
 	<div class="row" style="">
 		<div class="col-lg-4">
 			<div id="inner1" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div id="inner2" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
 		<div class="col-lg-4" >
-			<div id="inner3" class="inner">
-				<img src="images/about.jpg" height="30%" width="100%">
-				<h3 class="h5">Dosa<i class="fa fa-ellipsis-v"></i></h3>
-				<p class="text-center" style="">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed.</p>
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>

@@ -133,7 +133,7 @@
 		<div id="fleft">
 		<h2 id="candy" class="h5 text-white">CANDY MAY</h2>
 		<p id="pcandy" class="text-white">Candy May Restaurant, N0.1, Strand Street, Yangon, Myanmar
-			<br>Check in or Delivery : 8pm - 8pm
+			<br>Check in or Delivery : 8am - 8pm
 			<br>(415)915-6815
 			<br>
 			<a href="#">candymay.com</a>
@@ -144,7 +144,7 @@
 				<a href="https://www.instagram.com" style="color: #fff; padding-right: 30px;"><i class="fa fa-instagram fa-lg"></i></a>
 				<a href="https://www.twitter.com" style="color: #fff"><i class="fa fa-twitter fa-lg"></i></a><br>
 				<p class="mt-3">Give review for us  &nbsp;
-				<button style="display:inline;" onclick="showForm()">Post review</button></p>
+				<button style="display:inline;" onclick="showForm()" class="btn btn-sm btn-danger">Post review</button></p>
 		</div>
 		<div id="last">&copy; 2021 Grand Design by May & Su</div>
 	</div>
