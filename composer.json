@@ -1,0 +1,16 @@
+{
+    "name": "project/restaurant",
+    "autoload": {
+        "psr-4": {
+            "Project\\Restaurant\\": "src/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ThetSuSuKyaw",
+            "email": "thetsusukyaw981@gmail.com"
+        }
+    ],
+    "require": {}
+}

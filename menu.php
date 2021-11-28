@@ -1,3 +1,9 @@
+<?php
+include("vendor/autoload.php");
+use Database\MySQL;
+use Database\Table;
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,6 +74,7 @@
 		box-shadow: 5px 5px 5px #ddd;
 		border-radius: 4px;
 		position: relative;
+		margin-top: 20px;
 	}
 
 	.price{
@@ -84,6 +91,7 @@
 		font-weight: normal;
 		padding: 10px;
 		margin-bottom: 15px;
+		font-size: 17px;
 	}
 
 	.fa-ellipsis-v{
@@ -120,22 +128,56 @@
 	<div id="nav">
 	<ul>
 	  <li>
-	    <a href="#">Category 1</a>
+	    <a href="get_category.php?id=0">All Categories</a>
 	  </li>
+		<?php 
+		$table = new Table(new MySQL());
+		$categories = $table->getAllCategories();
+		foreach($categories as $category):
+		?>
 	  <li>
-	    <a href="#">Category 2</a>
+	    <a href="get_category.php?id=<?= $category->id ?>"><?= $category->name ?></a>
 	  </li>
-	  <li>
-	    <a href="#">Category 3</a>
-	  </li>
-	  <li>
-	    <a href="#">Category 4</a>
-	  </li>
+	  	<?php endforeach; ?>
 	</ul>
 	</div>
 	<div id="wrap">
 		<h1 class="h2 text-center mt-3 mb-5">Foods Zone!</h1>
-		<div class="row" style="">
+		<div class="row">
+
+
+			<?php 
+			$statement = $_SESSION['menu'];
+			foreach($statement as $row) :?>
+			
+
+			<div class="col-lg-4">
+			<div class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger"><?= $row->price ?></span>
+				<h3 class="h5 text-center"><?= $row->name ?></h3>
+				<a href="add_to_cart.php?id=<?= $row->id?>" class="order">ORDER NOW!</a>
+			</div>
+			</div>
+		<?php endforeach; ?>
+		<!-- <div class="col-lg-4">
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
+				<a href="#" class="order">ORDER NOW!</a>
+			</div>
+		</div>
+		<div class="col-lg-4" >
+			<div id="inner1" class="inner">
+				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
+				<span class="price bg-danger">1000 Ks</span>
+				<h3 class="h5 text-center">Dosa</h3>
+				<a href="#" class="order">ORDER NOW!</a>
+			</div>
+		</div> -->
+	</div>
+	<!-- <div class="row" style="">
 		<div class="col-lg-4">
 			<div id="inner1" class="inner">
 				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
@@ -186,33 +228,7 @@
 				<a href="#" class="order">ORDER NOW!</a>
 			</div>
 		</div>
-	</div>
-	<div class="row" style="">
-		<div class="col-lg-4">
-			<div id="inner1" class="inner">
-				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
-				<span class="price bg-danger">1000 Ks</span>
-				<h3 class="h5 text-center">Dosa</h3>
-				<a href="#" class="order">ORDER NOW!</a>
-			</div>
-		</div>
-		<div class="col-lg-4">
-			<div id="inner1" class="inner">
-				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
-				<span class="price bg-danger">1000 Ks</span>
-				<h3 class="h5 text-center">Dosa</h3>
-				<a href="#" class="order">ORDER NOW!</a>
-			</div>
-		</div>
-		<div class="col-lg-4" >
-			<div id="inner1" class="inner">
-				<img src="images/menu1.jpg" height="170" width="215" style="padding: 5px 5px;">
-				<span class="price bg-danger">1000 Ks</span>
-				<h3 class="h5 text-center">Dosa</h3>
-				<a href="#" class="order">ORDER NOW!</a>
-			</div>
-		</div>
-	</div>
+	</div> -->
 	</div>
 </body>
 </html>
